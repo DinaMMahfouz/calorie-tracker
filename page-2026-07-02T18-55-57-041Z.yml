@@ -1,0 +1,36 @@
+- generic [ref=f3e1]:
+  - main [ref=f3e2]:
+    - heading "Calorie Tracker" [level=1] [ref=f3e3]
+    - generic [ref=f3e4]:
+      - generic [ref=f3e5]: Today
+      - generic [ref=f3e6]:
+        - generic [ref=f3e7]: "165"
+        - generic [ref=f3e8]: kcal
+      - generic [ref=f3e9]:
+        - generic [ref=f3e10]:
+          - generic [ref=f3e11]: 31g
+          - generic [ref=f3e12]: Protein
+        - generic [ref=f3e13]:
+          - generic [ref=f3e14]: 0g
+          - generic [ref=f3e15]: Carbs
+        - generic [ref=f3e16]:
+          - generic [ref=f3e17]: 3.6g
+          - generic [ref=f3e18]: Fat
+    - generic [ref=f3e19]:
+      - heading "Add Food" [level=2] [ref=f3e20]
+      - generic [ref=f3e21]:
+        - button "Quick Add" [ref=f3e22]
+        - button "Describe" [active] [ref=f3e23]
+        - button "Photo" [ref=f3e24]
+      - generic [ref=f3e161]:
+        - textbox "Describe your meal (e.g. grilled chicken with rice and salad)" [ref=f3e162]
+        - button "Look up" [disabled] [ref=f3e163]
+    - generic [ref=f3e149]:
+      - heading "Today's Log" [level=2] [ref=f3e150]
+      - list [ref=f3e152]:
+        - listitem [ref=f3e153]:
+          - generic [ref=f3e154]:
+            - generic [ref=f3e155]: Chicken Breast
+            - generic [ref=f3e156]: 165 kcal · 100g
+          - button "Remove Chicken Breast" [ref=f3e157]: Remove
+  - alert [ref=f3e158]

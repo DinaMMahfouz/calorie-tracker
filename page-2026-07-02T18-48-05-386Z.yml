@@ -1,0 +1,31 @@
+- generic [ref=f1e1]:
+  - main [ref=f1e2]:
+    - heading "Calorie Tracker" [level=1] [ref=f1e3]
+    - generic [ref=f1e4]:
+      - generic [ref=f1e5]: Today
+      - generic [ref=f1e6]:
+        - generic [ref=f1e7]: "0"
+        - generic [ref=f1e8]: kcal
+      - generic [ref=f1e9]:
+        - generic [ref=f1e10]:
+          - generic [ref=f1e11]: 0g
+          - generic [ref=f1e12]: Protein
+        - generic [ref=f1e13]:
+          - generic [ref=f1e14]: 0g
+          - generic [ref=f1e15]: Carbs
+        - generic [ref=f1e16]:
+          - generic [ref=f1e17]: 0g
+          - generic [ref=f1e18]: Fat
+    - generic [ref=f1e19]:
+      - heading "Add Food" [level=2] [ref=f1e20]
+      - generic [ref=f1e21]:
+        - button "Quick Add" [ref=f1e22]
+        - button "Describe" [active] [ref=f1e23]
+        - button "Photo" [ref=f1e24]
+      - generic [ref=f1e162]:
+        - textbox "Describe your meal (e.g. grilled chicken with rice and salad)" [ref=f1e163]
+        - button "Look up" [disabled] [ref=f1e164]
+    - generic [ref=f1e149]:
+      - heading "Today's Log" [level=2] [ref=f1e150]
+      - paragraph [ref=f1e165]: Nothing logged yet. Add a food to get started.
+  - alert [ref=f1e153]
